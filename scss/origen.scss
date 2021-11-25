@@ -1,0 +1,180 @@
+$color-body: bisque;
+$color-h1: #8a4504;
+$color-h2: brown;
+$color-h3: coral;
+$color-a: brown;
+
+body{
+    background-color:$color-body;
+}
+
+.background-index{
+    background-color:$color-body;
+}
+
+h1{
+    color: $color-h1;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+}
+
+h2{
+    color: $color-h2 ;
+}
+
+h3{
+    background-color: $color-h3;   
+}
+
+ul{
+    list-style-type: square;
+    padding: 0%;
+    position:sticky;
+    top: 20px; 
+}
+
+a{
+    text-decoration: none;
+    color: $color-a;
+    margin-right: 25px;
+}
+
+input{
+    margin: 5px 0px ;
+}
+
+.footer{
+    font-size: 15px;
+    background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);;
+}
+
+.nosotros {
+    font-family: 'IM Fell English SC', serif;
+    border: solid black 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.contacto {
+    margin-bottom: 0px;
+}
+
+.gracias{
+    width: 188px;
+}
+
+.contenido{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .galeria{
+        transition: all 1s;
+        width: 450px;
+        height: 400px;
+    }
+    .galeria:hover{
+        width: 510px;
+        height: 460px;
+    }
+}
+
+.galeria{
+    text-align: center;
+    font-size: 50px;
+}
+
+.carrusel{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    img{
+        width: 600px;
+        height: 600px;
+    }
+}
+
+.machos{
+    margin: 10px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 30px   
+}
+
+.grid_fotos{
+    
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    column-gap: 10px;
+}
+
+.logo{
+    width: 400px;
+    height: 115px;
+}
+
+.familia{
+    width: 350px;
+    height: 300;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 376px){
+    .contenido{
+        width: 400px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .familia{
+        width: 350px;
+        height: 300;
+    }
+
+    .logo{
+        width: 400px;
+        height: 115px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 412px){
+    .contenido{
+        width: 535px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .familia{
+        width: 534px;
+        height: 442px;
+    }
+
+    .logo{
+        width: 433px;
+        height: 115px;
+    }
+}
